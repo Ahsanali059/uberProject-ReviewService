@@ -2,7 +2,6 @@ package com.example.uperprojectreviewservice.Models;
 
 import jakarta.persistence.*;
 import lombok.*;
-
 /**
  *
  * @Inheritance(strategy = InheritanceType.JOINED) specifies that the inheritance type is "joined", meaning that each class in the hierarchy (including the base class and its subclasses) will be mapped to its own database table.
@@ -10,8 +9,6 @@ import lombok.*;
  *
  *
  */
-
-
 @Getter
 @Setter
 @Builder
