@@ -9,7 +9,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
+/**
+ * A class can manage the implement business logic
+ */
 @Service
 public class ReviewServiceImpl implements ReviewService {
 

@@ -1,5 +1,6 @@
 package com.example.uperprojectreviewservice.Adapters;
 
+import com.example.uperprojectreviewservice.Models.Review;
 import com.example.uperprojectreviewservice.dto.CreateReviewDto;
 
 
