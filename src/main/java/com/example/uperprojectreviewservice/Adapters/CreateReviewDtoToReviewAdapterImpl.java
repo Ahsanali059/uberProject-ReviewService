@@ -8,6 +8,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
+
+/**
+ * A class can handle the convert Dto to method
+ */
 @Component
 public class CreateReviewDtoToReviewAdapterImpl implements createReviewDtotoReviewAdapter{
 
