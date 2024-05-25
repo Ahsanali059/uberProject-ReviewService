@@ -49,7 +49,4 @@ public abstract class BaseModel
  * Indicates that this class is a base class for JPA entities. It’s not a complete entity itself and will not be mapped to a database table. Instead, its properties are inherited by subclasses that are entities.
  *
  * @Temporal(TemporalType.TIMESTAMP) specifies that the createdAt field should be stored with both date and time information.
- *
- *
- *
  */
