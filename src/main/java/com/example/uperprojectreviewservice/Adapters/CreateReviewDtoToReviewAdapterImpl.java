@@ -5,12 +5,10 @@ import com.example.uperprojectreviewservice.Models.Review;
 import com.example.uperprojectreviewservice.Repository.BookingRepository;
 import com.example.uperprojectreviewservice.dto.CreateReviewDto;
 import org.springframework.stereotype.Component;
-
 import java.util.Optional;
 
-
 /**
- * A class can handle the convert Dto to method
+ * to convert a CreateReviewDto object into a Review entity
  */
 @Component
 public class CreateReviewDtoToReviewAdapterImpl implements createReviewDtotoReviewAdapter{
